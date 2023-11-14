@@ -1,27 +1,60 @@
 # HapinessApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+Este proyecto es una prueba técnica, diseñada para evaluar la capacidad del desarrollador para crear una aplicación de una sola página moderna y funcional.
 
-## Development server
+## Consideraciones para el Desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Todas las bibliotecas y/o marcos de JavaScript están a su disposición.
+- Solo es compatible con los navegadores más recientes.
+- Utilice Typescript y ES6.
+- Se recomienda el uso de SCSS.
 
-## Code scaffolding
+**Puntos Extra:**
+- Calidad del código
+- Soporte móvil
+- Estructura de la aplicación
+- Unit Tests
+- Experiencia de usuario
+- Optimización (tiempos de carga y rendimiento de renderizado)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Empezando
 
-## Build
+¡Que empiecen los juegos de desarrollo! Inicie el proyecto y considere las pautas proporcionadas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## HSFE - Herramienta de Seguimiento de la Felicidad del Empleado
 
-## Running unit tests
+Presentamos la aplicación HSFE para agilizar el proceso de seguimiento del nivel de felicidad de las personas relacionadas con su empresa. Cada persona tendrá las siguientes propiedades:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Nombre
+- Categoría (Empleado o Gerente)
+- Nombre de la empresa
+- Nivel de felicidad
 
-## Running end-to-end tests
+## Funcionalidades Requeridas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Listado y Búsqueda:**
+   - Enumere a las personas.
+   - Permita la búsqueda por nombre o categoría.
+   - Posibilidad de ordenar por nivel de felicidad, categoría o empresa en orden ascendente o descendente.
 
-## Further help
+2. **Listado de Favoritos:**
+   - Permita a los usuarios seleccionar personas para rastrear como favoritos.
+   - Muestre la lista de favoritos en un modal accesible desde la barra de navegación.
+   - En el modal, permita buscar por nombre, categoría y empresa.
+   - Proporcione la opción de eliminar personas de la lista de favoritos sin cerrar el modal.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Paginación:**
+   - Utilice paginación para los listados, mostrando 5 personas a la vez.
+
+## Requisitos de Entrega
+
+- Proporcione su solución en un solo archivo zip o mediante un repositorio privado de git.
+- Adjunte un archivo de texto con instrucciones para compilar y/o ejecutar la solución.
+- No se requiere persistencia para la lista de favoritos.
+
+## Entrega Adicional (No Requerida)
+
+- Se tomarán en cuenta mejoras de UX/UI.
+- Comunique si hubo limitaciones de tiempo en la finalización del ejercicio o si haría algo diferente con más tiempo.
+
+¡Buena suerte con el desarrollo de la aplicación!
