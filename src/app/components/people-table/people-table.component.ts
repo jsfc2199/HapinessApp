@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
+import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { People } from 'src/app/data';
 import { Person } from 'src/app/models';
@@ -11,7 +11,7 @@ import { MatInputModule } from '@angular/material/input';
 @Component({
   selector: 'app-people-table',
   standalone: true,
-  imports: [CommonModule, MatPaginatorModule, MatFormFieldModule, MatTableModule, MatInputModule],
+  imports: [CommonModule, MatPaginatorModule, MatFormFieldModule, MatTableModule, MatInputModule, MatSortModule],
   templateUrl: './people-table.component.html',
   styleUrls: ['./people-table.component.scss']
 })
