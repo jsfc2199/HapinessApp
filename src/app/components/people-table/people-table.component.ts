@@ -17,7 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 })
 export class PeopleTableComponent implements OnInit, AfterViewInit  {
 
-  displayedColumns: string[] = ['id', 'name', 'category', 'company', 'levelOfHapinness'];
+  displayedColumns: string[] = ['id', 'name', 'category', 'company', 'levelOfHappiness'];
   dataSource: MatTableDataSource<Person>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
